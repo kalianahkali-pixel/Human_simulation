@@ -23,14 +23,7 @@ public class Human {
 	
 	public String toString() {
 		
-		try {
-			String chain = "Name: " + this.Name + "\nAffinity rate: " + this.Affinity_Rate + "\nFinancial capacity: " + this.Financial_Capacity + "\nElegance & Charm: " + this.Elegance_s_Charm + "\n\tTarget: " + this.target_Affinity.toString();
-			return chain;
-	
-		} catch (Exception e) {
-			String chain = "Name: " + this.Name + "\nAffinity rate: " + this.Affinity_Rate + "\nFinancial capacity: " + this.Financial_Capacity + "\nElegance & Charm: " + this.Elegance_s_Charm + "\n\tTarget: " + this.target_Affinity;
-			return chain;
-		}
+		return "Name: " + this.Name + "\nGender: " + this.gender + "\nAffinity Rate: " + this.Affinity_Rate + "\nFinancial capacity: " + this.Financial_Capacity + "\nElegance & Charm" + this.Elegance_s_Charm;
 		
 	}
 	
